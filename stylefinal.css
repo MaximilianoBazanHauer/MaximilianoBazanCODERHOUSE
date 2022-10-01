@@ -1,0 +1,185 @@
+.test {
+    border: 2px solid red;
+}
+
+body {
+    background: url(./Assets/alfon.jpg);
+    background-repeat: repeat;
+    background-size: 300px;
+    color: azure;
+    font-size: large;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, .9);
+    border-radius: 12px;
+    padding: 5px 0;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    color: rgb(113, 206, 206);
+    border-top: 2px solid rgb(113, 206, 206);
+
+}
+
+.main {
+
+    width: 70%;
+}
+
+.ultra {
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, .5);
+    border-top: 2px solid rgb(113, 206, 206);
+    border-bottom: 2px solid rgb(113, 206, 206);
+
+    margin-bottom: 2em;
+    width: 100%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carrito {
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, .5);
+    border-top: 2px solid rgb(113, 206, 206);
+    border-bottom: 2px solid rgb(113, 206, 206);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+
+    margin-bottom: 2em;
+    width: 100%;
+    padding-top: 3%;
+
+}
+
+#totalCarrito {
+    margin-bottom: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+h3 {}
+
+
+
+.ropaImg {
+    border: 2px;
+    border-color: rgb(113, 206, 206);
+}
+
+#searcher {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2em;
+
+}
+
+.search {
+    border: 2px;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #7272c0;
+}
+
+.boton {
+
+    flex-direction: row;
+    color: black;
+    padding: 1em;
+    padding-bottom: 1em;
+    border-radius: 12px;
+    box-shadow: 6px 8px 15px 0 #565681;
+    margin-bottom: 5%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    text-align: center;
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, .5);
+    border-top: 2px solid rgb(113, 206, 206);
+    border-bottom: 2px solid rgb(113, 206, 206);
+    border-radius: 12px;
+}
+
+#allProducts {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: rgba(0, 0, 0, .5);
+    border-top: 2px solid rgb(113, 206, 206);
+    border-bottom: 2px solid rgb(113, 206, 206);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 2rem 1rem;
+    min-width: 30%;
+    width: 15rem;
+    height: 35rem;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    height: 12rem;
+    gap: .2rem;
+}
+
+.ropaImg {
+    /* width: 100%; */
+
+    height: 100%;
+    width: 100%;
+    /* object-fit: contain; */
+    object-fit: contain;
+
+}
+
+.imgCont {
+    height: 60%;
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.articulo {
+    background-color: antiquewhite;
+    border-radius: 12px;
+}
+.iconInsta img{
+    width: 150px;
+}
