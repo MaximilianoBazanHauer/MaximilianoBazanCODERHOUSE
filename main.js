@@ -229,8 +229,8 @@ for(let prenda of productosEnCarrito){
     let li = document.createElement("li")
         li.innerHTML = `
         <h4>${prenda.type}</h4>
-        <h3>${prenda.size}</h3>
-        <p>$${prenda.price}</p>
+        <h4>Talle: ${prenda.size}</h4>
+        <p>Precio: $${prenda.price}</p>
         <p>Total ${prenda.cantidad}</p>
         <button id ="btnQuitar${prenda.id}">Quitar</button>`
         lista.appendChild(li)
