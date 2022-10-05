@@ -189,7 +189,13 @@ function catalogoTodo(array){
     let btnAgregar = document.getElementById(`btnAnadir${prenda.id}`)
     
     btnAgregar.addEventListener("click", ()=>{
-        
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Añadiste la prenda!',
+            showConfirmButton: false,
+            timer: 1500
+          })
         agregarAlCarrito(prenda)
         
     })
