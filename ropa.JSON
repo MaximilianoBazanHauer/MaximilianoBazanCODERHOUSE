@@ -1,0 +1,179 @@
+ [
+    {
+      "id": 1,
+      "prop": "Pantalon",
+      "cantidad": 0,
+      "type": "Pantalon de bengalina con bolsillos atras",
+      "size": "L",
+      "color": "Marron",
+      "price": 2500,
+      "image": "./Assets/pantalonBengalina.jpg",
+      "inCart": 0
+    },
+    {
+      "id": 2,
+      "prop": "Pantalon",
+      "cantidad": 0,
+      "type": "Pantalon de Jean",
+      "size": "XS",
+      "color": "Verde",
+      "price": 3000,
+      "image": "./Assets/pantalonJean.jpg",
+      "inCart": 0
+    },
+    {
+      "id": 3,
+      "prop": "Pantalon",
+      "cantidad": 0,
+      "type": "Pantalon Palazo",
+      "size": "XL",
+      "color": "Azul",
+      "price": 5000,
+      "image": "./Assets/pantalonPalazzo.jpeg",
+      "inCart": 0
+    },
+    {
+      "id": 4,
+      "prop": "Pantalon",
+      "cantidad": 0,
+      "type": "Pantalon de Jean Mom",
+      "size": "M",
+      "color": "Gris",
+      "price": 3500,
+      "image": "./Assets/pantalonMom.jpeg",
+      "inCart": 0
+    },
+    {
+      "id": 5,
+      "prop": "Remera",
+      "cantidad": 0,
+      "type": "Remera de Algodon manga corta",
+      "size": "L",
+      "color": "Amarillo",
+      "price": 2000,
+      "image": "./Assets/remeraAmarilla.jpg",
+      "inCart": 0
+    },
+    {
+      "id": 6,
+      "prop": "Remera",
+      "cantidad": 0,
+      "type": "Remera de Algodon manga larga",
+      "size": "S",
+      "color": "Azul Marino",
+      "price": 2300,
+      "image": "./Assets/remeraAzulMarino.jpg",
+      "inCart": 0
+    },
+    {
+      "id": 7,
+      "prop": "Remera",
+      "cantidad": 0,
+      "type": "Remera de Poliester cuello en V",
+      "size": "XXL",
+      "color": "Azul",
+      "price": 3000,
+      "image": "./Assets/remeraPoliester.jpg",
+      "inCart": 0
+    },
+    {
+      "id": 8,
+      "prop": "Remera",
+      "cantidad": 0,
+      "type": "Remera de Algodon cuello de tortuga",
+      "size": "M",
+      "color": "Gris",
+      "price": 3200,
+      "image": "./Assets/remeraTortuga.jpg",
+      "inCart": 0
+    },
+    {
+      "id": 9,
+      "prop": "Vestido",
+      "cantidad": 0,
+      "type": "Vestido de Algodon manga corta",
+      "size": "L",
+      "color": "Amarillo",
+      "price": 2700,
+      "image": "./Assets/vestidoAmarillo.jpg",
+      "inCart": 0
+    },
+    {
+      "id": 10,
+      "prop": "Vestido",
+      "cantidad": 0,
+      "type": "Vestido de Morley largo",
+      "size": "S",
+      "color": "Fucsia",
+      "price": 2900,
+      "image": "./Assets/vestidoFucsia.jpg",
+      "inCart": 0
+    },
+    {
+      "id": 11,
+      "prop": "Vestido",
+      "cantidad": 0,
+      "type": "Vestido de Algodon rustico",
+      "size": "XXL",
+      "color": "Azul",
+      "price": 3000,
+      "image": "./Assets/vestidoAzul.jpg",
+      "inCart": 0
+    },
+    {
+      "id": 12,
+      "prop": "Vestido",
+      "cantidad": 0,
+      "type": "Vestido de Jean corto",
+      "size": "M",
+      "color": "Gris",
+      "price": 3500,
+      "image": "./Assets/vestidoJean.jpg",
+      "inCart": 0
+    },
+    {
+      "id": 13,
+      "prop": "Campera",
+      "cantidad": 0,
+      "type": "Campera de Algodon rustica",
+      "size": "L",
+      "color": "Amarillo",
+      "price": 5000,
+      "image": "./Assets/camperaAmarilla.jpg",
+      "inCart": 0
+    },
+    {
+      "id": 14,
+      "prop": "Campera",
+      "cantidad": 0,
+      "type": "Campera de Acetato manga larga",
+      "size": "S",
+      "color": "Lila",
+      "price": 4500,
+      "image": "./Assets/camperaLila.jpg",
+      "inCart": 0
+    },
+    {
+      "id": 15,
+      "prop": "Campera",
+      "cantidad": 0,
+      "type": "Campera de Cuero",
+      "size": "XXL",
+      "color": "Negro",
+      "price": 8000,
+      "image": "./Assets/camperaCuero.jpg",
+      "inCart": 0
+    },
+    {
+      "id": 16,
+      "prop": "Campera",
+      "cantidad": 0,
+      "type": "Campera de Algodon cuello redondo",
+      "size": "M",
+      "color": "Gris",
+      "price": 3900,
+      "image": "./Assets/camperaGris.jpg",
+      "inCart": 0
+    }
+  ]
+  

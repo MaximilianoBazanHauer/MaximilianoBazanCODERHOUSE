@@ -7,11 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comisión 34010 - Maximiliano Gabriel Bazan Hauer</title>
     <link rel="stylesheet" type="text/css" href="./stylefinal.css">
-    <script
-			  src="https://code.jquery.com/jquery-3.6.1.min.js"
-			  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-			  crossorigin="anonymous"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 
 </head>
 
@@ -24,18 +21,18 @@
         <div class="ultra">
             <div id="searcher">
                 <p> Busqueda por talle (xxs, xs, s, m, l, xl, xxl.):</p>
-                <form>
+                <form id="form">
                 <label for="search">Buscar</label>
                 <input class="search" value="" type="search" id="search">   
                 </form>
             </div>
-            <div class="buttons">
-                <button class="boton" id="todo">Catalogo Completo</button>
-                <button class="boton" id="remeras">Remeras</button>
-                <button class="boton" id="camperas">Camperas</button>
-                <button class="boton" id="pantalones">Pantalones</button>
-                <button class="boton" id="vestidos">Vestidos</button>
-                <button class="boton" id="ocultarCatalogo">Ocultar Catálogo</button>
+            <div class="buttons" id="navButtons">
+                <button class="boton" data-categoria="todo" id>Catalogo Completo</button>
+                <button class="boton" data-categoria="Remera" >Remeras</button>
+                <button class="boton" data-categoria="Campera">Camperas</button>
+                <button class="boton" data-categoria="Pantalon" >Pantalones</button>
+                <button class="boton" data-categoria="Vestido" >Vestidos</button>
+                <button class="boton" data-categoria="" id="ocultarCatalogo">Ocultar Catálogo</button>
             </div>
             <div class="todaRopa">
 
@@ -60,12 +57,13 @@
             <div id="totalCarrito">
 
             </div>
-            <button class="boton">Comprar</button>
+            <button class="boton" id="btncomprar">Comprar</button>
+            <button class="boton" id="btnBorrar">Borrar Carrito</button>
         </div>
     </div>
 
     <script src="./main.js"></script>
-</body>
+
 <footer class="footer">
     <div class="icons">
         <a class="icon iconInsta" href="https://instagram.com/alfon_store_2020" target=":_blank"><img
@@ -76,5 +74,5 @@
                 Todos los derechos reservados.</b> </a>
     </div>
 </footer>
-
+</body>
 </html>
